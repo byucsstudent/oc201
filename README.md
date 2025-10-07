@@ -1,4 +1,3 @@
-```markdown
 ![BYU Logo](https://raw.githubusercontent.com/csinstructiontemplate/emptycourse/refs/heads/main/byulogo.png)
 
 # Introduction to Organic Chemistry
@@ -40,4 +39,3 @@ Upon successful completion of this course, you will be able to:
 *   **Module 8: Carboxylic Acids and Derivatives:** This module covers the structure, properties, and reactions of carboxylic acids and their derivatives.
 
 Ready to unlock the secrets of the molecular world? Dive into the exciting journey of organic chemistry and transform your understanding of the world around you. Let's begin!
-```
