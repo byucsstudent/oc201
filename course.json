@@ -1,149 +1,814 @@
 {
   "title": "Introduction to organic chemistry",
-  "description": "A comprehensive university course covering the history, basic principles, advances, and future directions of organic chemistry. Topics range from fundamental bonding concepts and nomenclature to reaction mechanisms, spectroscopy, and the synthesis of complex molecules. A capstone project allows students to apply their knowledge to solve real-world problems.",
+  "links": {},
   "modules": [
     {
       "title": "Module 1: Foundations of Organic Chemistry",
-      "description": "This module introduces the fundamental concepts of organic chemistry, including bonding, structure, nomenclature, and basic functional groups.",
       "topics": [
-        { "title": "Overview", "description": "Course introduction and objectives.", "path": "README.md", "type": "instruction", "state": "stable" },
-        { "title": "Chemical Bonding in Organic Molecules", "description": "Explore covalent bonding, electronegativity, and bond polarity in organic compounds.", "path": "instruction/chemical-bonding-in-organic-molecules/chemical-bonding-in-organic-molecules.md", "type": "instruction", "state": "stub" },
-        { "title": "Hybridization and Molecular Geometry", "description": "Understand the concepts of sp, sp2, and sp3 hybridization and their influence on molecular shape.", "path": "instruction/hybridization-and-molecular-geometry/hybridization-and-molecular-geometry.md", "type": "instruction", "state": "stub" },
-        { "title": "Drawing Organic Structures", "description": "Learn how to represent organic molecules using Lewis structures, condensed formulas, and skeletal structures.", "path": "instruction/drawing-organic-structures/drawing-organic-structures.md", "type": "instruction", "state": "stub" },
-        { "title": "Nomenclature of Alkanes and Alkyl Groups", "description": "Master the IUPAC nomenclature system for naming alkanes and alkyl substituents.", "path": "instruction/nomenclature-of-alkanes-and-alkyl-groups/nomenclature-of-alkanes-and-alkyl-groups.md", "type": "instruction", "state": "stub" },
-        { "title": "Nomenclature of Alkenes, Alkynes, and Cyclic Alkanes", "description": "Extend the nomenclature rules to include alkenes, alkynes, and cyclic alkanes.", "path": "instruction/nomenclature-of-alkenes-alkynes-and-cyclic-alkanes/nomenclature-of-alkenes-alkynes-and-cyclic-alkanes.md", "type": "instruction", "state": "stub" },
-        { "title": "Functional Groups", "description": "Introduction to common functional groups and their properties.", "path": "instruction/functional-groups/functional-groups.md", "type": "instruction", "state": "stub" },
-        { "title": "Isomers: Constitutional and Stereoisomers", "description": "Distinguish between constitutional isomers and stereoisomers.", "path": "instruction/isomers-constitutional-and-stereoisomers/isomers-constitutional-and-stereoisomers.md", "type": "instruction", "state": "stub" },
-        { "title": "Resonance", "description": "Understand resonance structures and their contribution to molecular stability.", "path": "instruction/resonance/resonance.md", "type": "instruction", "state": "stub" },
-        { "title": "Acid-Base Chemistry in Organic Reactions", "description": "Apply acid-base concepts to understand reactivity in organic systems.", "path": "instruction/acid-base-chemistry-in-organic-reactions/acid-base-chemistry-in-organic-reactions.md", "type": "instruction", "state": "stub" },
-        { "title": "Introduction to Spectroscopy", "description": "Overview of spectroscopic techniques used in organic chemistry.", "path": "instruction/introduction-to-spectroscopy/introduction-to-spectroscopy.md", "type": "instruction", "state": "stub" },
-        { "title": "Introduction to Chirality", "description": "Exploration of the concept of chirality and its importance in organic chemistry.", "path": "instruction/introduction-to-chirality/introduction-to-chirality.md", "type": "instruction", "state": "stub" }
+        {
+          "title": "Overview",
+          "type": "instruction",
+          "path": "README.md",
+          "id": "5c236c96788640709dc5f2ab1335f2f7",
+          "state": "stable",
+          "description": "Course introduction and objectives.",
+          "commit": "43dd37fd2ab320f468144d947456ee3691f169f4"
+        },
+        {
+          "title": "Chemical Bonding in Organic Molecules",
+          "type": "instruction",
+          "path": "instruction/chemical-bonding-in-organic-molecules/chemical-bonding-in-organic-molecules.md",
+          "id": "ad4f6910e03d48d28498168a00083d2e",
+          "state": "stub",
+          "description": "Explore covalent bonding, electronegativity, and bond polarity in organic compounds."
+        },
+        {
+          "title": "Hybridization and Molecular Geometry",
+          "type": "instruction",
+          "path": "instruction/hybridization-and-molecular-geometry/hybridization-and-molecular-geometry.md",
+          "id": "3c4173dbac93437790e0a82c0988959f",
+          "state": "stub",
+          "description": "Understand the concepts of sp, sp2, and sp3 hybridization and their influence on molecular shape."
+        },
+        {
+          "title": "Drawing Organic Structures",
+          "type": "instruction",
+          "path": "instruction/drawing-organic-structures/drawing-organic-structures.md",
+          "id": "ff1395a78e6c498c9749181dd6b29bff",
+          "state": "stub",
+          "description": "Learn how to represent organic molecules using Lewis structures, condensed formulas, and skeletal structures."
+        },
+        {
+          "title": "Nomenclature of Alkanes and Alkyl Groups",
+          "type": "instruction",
+          "path": "instruction/nomenclature-of-alkanes-and-alkyl-groups/nomenclature-of-alkanes-and-alkyl-groups.md",
+          "id": "6fa81557ea344e26a2261fe1dff5eed1",
+          "state": "stub",
+          "description": "Master the IUPAC nomenclature system for naming alkanes and alkyl substituents."
+        },
+        {
+          "title": "Nomenclature of Alkenes, Alkynes, and Cyclic Alkanes",
+          "type": "instruction",
+          "path": "instruction/nomenclature-of-alkenes-alkynes-and-cyclic-alkanes/nomenclature-of-alkenes-alkynes-and-cyclic-alkanes.md",
+          "id": "6b39ff63fe8e42259c6bac2809937670",
+          "state": "stub",
+          "description": "Extend the nomenclature rules to include alkenes, alkynes, and cyclic alkanes."
+        },
+        {
+          "title": "Functional Groups",
+          "type": "instruction",
+          "path": "instruction/functional-groups/functional-groups.md",
+          "id": "abe29ee1efac4be6b1354fb14d8dc1ce",
+          "state": "stub",
+          "description": "Introduction to common functional groups and their properties."
+        },
+        {
+          "title": "Isomers: Constitutional and Stereoisomers",
+          "type": "instruction",
+          "path": "instruction/isomers-constitutional-and-stereoisomers/isomers-constitutional-and-stereoisomers.md",
+          "id": "ee60bf507c594d1d80b10f07f431a7f1",
+          "state": "stub",
+          "description": "Distinguish between constitutional isomers and stereoisomers."
+        },
+        {
+          "title": "Resonance",
+          "type": "instruction",
+          "path": "instruction/resonance/resonance.md",
+          "id": "a60fb38ce5004d49826202d5c817c5d5",
+          "state": "stub",
+          "description": "Understand resonance structures and their contribution to molecular stability."
+        },
+        {
+          "title": "Acid-Base Chemistry in Organic Reactions",
+          "type": "instruction",
+          "path": "instruction/acid-base-chemistry-in-organic-reactions/acid-base-chemistry-in-organic-reactions.md",
+          "id": "ebd1a33efae94a44a2e7d8a4206a5a08",
+          "state": "stub",
+          "description": "Apply acid-base concepts to understand reactivity in organic systems."
+        },
+        {
+          "title": "Introduction to Spectroscopy",
+          "type": "instruction",
+          "path": "instruction/introduction-to-spectroscopy/introduction-to-spectroscopy.md",
+          "id": "3a517123bf2147baa6efa7c1dd4350f5",
+          "state": "stub",
+          "description": "Overview of spectroscopic techniques used in organic chemistry."
+        },
+        {
+          "title": "Introduction to Chirality",
+          "type": "instruction",
+          "path": "instruction/introduction-to-chirality/introduction-to-chirality.md",
+          "id": "3875a1290f2e49b88424b0222aaf0a98",
+          "state": "stub",
+          "description": "Exploration of the concept of chirality and its importance in organic chemistry."
+        }
       ]
     },
     {
       "title": "Module 2: Alkanes and Cycloalkanes",
-      "description": "This module focuses on the structure, properties, and reactions of alkanes and cycloalkanes.",
       "topics": [
-        { "title": "Structure and Properties of Alkanes", "description": "Examine the physical and chemical properties of alkanes.", "path": "instruction/structure-and-properties-of-alkanes/structure-and-properties-of-alkanes.md", "type": "instruction", "state": "stub" },
-        { "title": "Conformations of Alkanes", "description": "Analyze different conformations of alkanes and their relative energies.", "path": "instruction/conformations-of-alkanes/conformations-of-alkanes.md", "type": "instruction", "state": "stub" },
-        { "title": "Cycloalkane Stability: Ring Strain", "description": "Understand the concept of ring strain in cycloalkanes.", "path": "instruction/cycloalkane-stability-ring-strain/cycloalkane-stability-ring-strain.md", "type": "instruction", "state": "stub" },
-        { "title": "Conformations of Cyclohexane", "description": "Explore the chair and boat conformations of cyclohexane and their interconversion.", "path": "instruction/conformations-of-cyclohexane/conformations-of-cyclohexane.md", "type": "instruction", "state": "stub" },
-        { "title": "Reactions of Alkanes: Halogenation", "description": "Study the mechanism of free-radical halogenation of alkanes.", "path": "instruction/reactions-of-alkanes-halogenation/reactions-of-alkanes-halogenation.md", "type": "instruction", "state": "stub" },
-        { "title": "Oxidation of Alkanes: Combustion", "description": "Understand the combustion reaction of alkanes and its applications.", "path": "instruction/oxidation-of-alkanes-combustion/oxidation-of-alkanes-combustion.md", "type": "instruction", "state": "stub" },
-        { "title": "Industrial Importance of Alkanes", "description": "Discuss the various industrial applications of alkanes.", "path": "instruction/industrial-importance-of-alkanes/industrial-importance-of-alkanes.md", "type": "instruction", "state": "stub" },
-        { "title": "Petroleum Refining", "description": "Overview of the petroleum refining process and its products.", "path": "instruction/petroleum-refining/petroleum-refining.md", "type": "instruction", "state": "stub" },
-        { "title": "Cracking and Reforming", "description": "Discuss cracking and reforming processes in petroleum refining.", "path": "instruction/cracking-and-reforming/cracking-and-reforming.md", "type": "instruction", "state": "stub" },
-        { "title": "Environmental Impact of Alkanes", "description": "Discuss the environmental impact of alkanes and their use.", "path": "instruction/environmental-impact-of-alkanes/environmental-impact-of-alkanes.md", "type": "instruction", "state": "stub" },
-        { "title": "Alkane Synthesis", "description": "Methods to synthesize alkanes.", "path": "instruction/alkane-synthesis/alkane-synthesis.md", "type": "instruction", "state": "stub" },
-        { "title": "Properties of Branched Alkanes", "description": "Understand the differences between branched and unbranched alkanes.", "path": "instruction/properties-of-branched-alkanes/properties-of-branched-alkanes.md", "type": "instruction", "state": "stub" }
+        {
+          "title": "Structure and Properties of Alkanes",
+          "type": "instruction",
+          "path": "instruction/structure-and-properties-of-alkanes/structure-and-properties-of-alkanes.md",
+          "id": "2a37daf08f234c939f0eb9d19344f092",
+          "state": "stub",
+          "description": "Examine the physical and chemical properties of alkanes."
+        },
+        {
+          "title": "Conformations of Alkanes",
+          "type": "instruction",
+          "path": "instruction/conformations-of-alkanes/conformations-of-alkanes.md",
+          "id": "cfaaea2980894ec881b16dd64ade2295",
+          "state": "stub",
+          "description": "Analyze different conformations of alkanes and their relative energies."
+        },
+        {
+          "title": "Cycloalkane Stability: Ring Strain",
+          "type": "instruction",
+          "path": "instruction/cycloalkane-stability-ring-strain/cycloalkane-stability-ring-strain.md",
+          "id": "7e0c018388d54953a4b8345495501869",
+          "state": "stub",
+          "description": "Understand the concept of ring strain in cycloalkanes."
+        },
+        {
+          "title": "Conformations of Cyclohexane",
+          "type": "instruction",
+          "path": "instruction/conformations-of-cyclohexane/conformations-of-cyclohexane.md",
+          "id": "d1e4bbaacc864baabfccb0cd8d92cbcf",
+          "state": "stub",
+          "description": "Explore the chair and boat conformations of cyclohexane and their interconversion."
+        },
+        {
+          "title": "Reactions of Alkanes: Halogenation",
+          "type": "instruction",
+          "path": "instruction/reactions-of-alkanes-halogenation/reactions-of-alkanes-halogenation.md",
+          "id": "f09345df55144a61ab5102da32f402a6",
+          "state": "stub",
+          "description": "Study the mechanism of free-radical halogenation of alkanes."
+        },
+        {
+          "title": "Oxidation of Alkanes: Combustion",
+          "type": "instruction",
+          "path": "instruction/oxidation-of-alkanes-combustion/oxidation-of-alkanes-combustion.md",
+          "id": "d05cc0730cfc4a048f301138f9f553d4",
+          "state": "stub",
+          "description": "Understand the combustion reaction of alkanes and its applications."
+        },
+        {
+          "title": "Industrial Importance of Alkanes",
+          "type": "instruction",
+          "path": "instruction/industrial-importance-of-alkanes/industrial-importance-of-alkanes.md",
+          "id": "db21b9f401f7488b964957ec07e47d53",
+          "state": "stub",
+          "description": "Discuss the various industrial applications of alkanes."
+        },
+        {
+          "title": "Petroleum Refining",
+          "type": "instruction",
+          "path": "instruction/petroleum-refining/petroleum-refining.md",
+          "id": "4d733fdaf4ee413bb3f6221db559f845",
+          "state": "stub",
+          "description": "Overview of the petroleum refining process and its products."
+        },
+        {
+          "title": "Cracking and Reforming",
+          "type": "instruction",
+          "path": "instruction/cracking-and-reforming/cracking-and-reforming.md",
+          "id": "f2d60551fa124dbeaf8c4229015d67bf",
+          "state": "stub",
+          "description": "Discuss cracking and reforming processes in petroleum refining."
+        },
+        {
+          "title": "Environmental Impact of Alkanes",
+          "type": "instruction",
+          "path": "instruction/environmental-impact-of-alkanes/environmental-impact-of-alkanes.md",
+          "id": "b77a728cb0e0438d85edd8fd79fc6054",
+          "state": "stub",
+          "description": "Discuss the environmental impact of alkanes and their use."
+        },
+        {
+          "title": "Alkane Synthesis",
+          "type": "instruction",
+          "path": "instruction/alkane-synthesis/alkane-synthesis.md",
+          "id": "5734f8df8377474b8eaf9101f04ce9d0",
+          "state": "stub",
+          "description": "Methods to synthesize alkanes."
+        },
+        {
+          "title": "Properties of Branched Alkanes",
+          "type": "instruction",
+          "path": "instruction/properties-of-branched-alkanes/properties-of-branched-alkanes.md",
+          "id": "89115d5a6a1c44ef809f8f8c0ddab510",
+          "state": "stub",
+          "description": "Understand the differences between branched and unbranched alkanes."
+        }
       ]
     },
     {
       "title": "Module 3: Stereochemistry",
-      "description": "This module explores the three-dimensional arrangement of atoms in molecules and its impact on chemical properties.",
       "topics": [
-        { "title": "Chirality and Stereoisomers", "description": "Define chirality and differentiate between enantiomers and diastereomers.", "path": "instruction/chirality-and-stereoisomers/chirality-and-stereoisomers.md", "type": "instruction", "state": "stub" },
-        { "title": "Enantiomers and Optical Activity", "description": "Understand optical activity and how it relates to enantiomers.", "path": "instruction/enantiomers-and-optical-activity/enantiomers-and-optical-activity.md", "type": "instruction", "state": "stub" },
-        { "title": "R and S Configuration", "description": "Assign R and S configurations to chiral centers using the Cahn-Ingold-Prelog rules.", "path": "instruction/r-and-s-configuration/r-and-s-configuration.md", "type": "instruction", "state": "stub" },
-        { "title": "Diastereomers and Meso Compounds", "description": "Identify diastereomers and meso compounds.", "path": "instruction/diastereomers-and-meso-compounds/diastereomers-and-meso-compounds.md", "type": "instruction", "state": "stub" },
-        { "title": "Racemic Mixtures and Resolution", "description": "Understand racemic mixtures and methods for resolving them into pure enantiomers.", "path": "instruction/racemic-mixtures-and-resolution/racemic-mixtures-and-resolution.md", "type": "instruction", "state": "stub" },
-        { "title": "Chirality in Cyclic Systems", "description": "Examine chirality in cyclic molecules, including chiral cyclohexane derivatives.", "path": "instruction/chirality-in-cyclic-systems/chirality-in-cyclic-systems.md", "type": "instruction", "state": "stub" },
-        { "title": "Stereoisomers of Alkenes: Cis-Trans Isomerism", "description": "Understand cis-trans isomerism in alkenes.", "path": "instruction/stereoisomers-of-alkenes-cis-trans-isomerism/stereoisomers-of-alkenes-cis-trans-isomerism.md", "type": "instruction", "state": "stub" },
-        { "title": "E and Z Nomenclature", "description": "Assign E and Z configurations to alkenes using the Cahn-Ingold-Prelog rules.", "path": "instruction/e-and-z-nomenclature/e-and-z-nomenclature.md", "type": "instruction", "state": "stub" },
-        { "title": "Stereochemistry and Reactions", "description": "Analyze how stereochemistry influences the outcome of organic reactions.", "path": "instruction/stereochemistry-and-reactions/stereochemistry-and-reactions.md", "type": "instruction", "state": "stub" },
-        { "title": "Prochirality", "description": "Understand the concept of prochirality and its significance in enzymatic reactions.", "path": "instruction/prochirality/prochirality.md", "type": "instruction", "state": "stub" },
-        { "title": "Stereoselective and Stereospecific Reactions", "description": "Differentiate between stereoselective and stereospecific reactions.", "path": "instruction/stereoselective-and-stereospecific-reactions/stereoselective-and-stereospecific-reactions.md", "type": "instruction", "state": "stub" },
-        { "title": "Asymmetric Synthesis", "description": "Introduction to asymmetric synthesis and chiral catalysts.", "path": "instruction/asymmetric-synthesis/asymmetric-synthesis.md", "type": "instruction", "state": "stub" }
+        {
+          "title": "Chirality and Stereoisomers",
+          "type": "instruction",
+          "path": "instruction/chirality-and-stereoisomers/chirality-and-stereoisomers.md",
+          "id": "fe5020dc4d694896b439008eeec3c2a1",
+          "state": "stub",
+          "description": "Define chirality and differentiate between enantiomers and diastereomers."
+        },
+        {
+          "title": "Enantiomers and Optical Activity",
+          "type": "instruction",
+          "path": "instruction/enantiomers-and-optical-activity/enantiomers-and-optical-activity.md",
+          "id": "9418273acaa94e65a43359125a98d696",
+          "state": "stub",
+          "description": "Understand optical activity and how it relates to enantiomers."
+        },
+        {
+          "title": "R and S Configuration",
+          "type": "instruction",
+          "path": "instruction/r-and-s-configuration/r-and-s-configuration.md",
+          "id": "64eadc834907420ab02aab0611a2ac69",
+          "state": "stub",
+          "description": "Assign R and S configurations to chiral centers using the Cahn-Ingold-Prelog rules."
+        },
+        {
+          "title": "Diastereomers and Meso Compounds",
+          "type": "instruction",
+          "path": "instruction/diastereomers-and-meso-compounds/diastereomers-and-meso-compounds.md",
+          "id": "85b9c285e0be480a918ce6a95477c0c0",
+          "state": "stub",
+          "description": "Identify diastereomers and meso compounds."
+        },
+        {
+          "title": "Racemic Mixtures and Resolution",
+          "type": "instruction",
+          "path": "instruction/racemic-mixtures-and-resolution/racemic-mixtures-and-resolution.md",
+          "id": "88e28aca643f473a9aba595ebe58d4e8",
+          "state": "stub",
+          "description": "Understand racemic mixtures and methods for resolving them into pure enantiomers."
+        },
+        {
+          "title": "Chirality in Cyclic Systems",
+          "type": "instruction",
+          "path": "instruction/chirality-in-cyclic-systems/chirality-in-cyclic-systems.md",
+          "id": "c079b0fd645b433eaab94882bfd00dec",
+          "state": "stub",
+          "description": "Examine chirality in cyclic molecules, including chiral cyclohexane derivatives."
+        },
+        {
+          "title": "Stereoisomers of Alkenes: Cis-Trans Isomerism",
+          "type": "instruction",
+          "path": "instruction/stereoisomers-of-alkenes-cis-trans-isomerism/stereoisomers-of-alkenes-cis-trans-isomerism.md",
+          "id": "0493ac0b17ea4b4fa759535de05fe0f0",
+          "state": "stub",
+          "description": "Understand cis-trans isomerism in alkenes."
+        },
+        {
+          "title": "E and Z Nomenclature",
+          "type": "instruction",
+          "path": "instruction/e-and-z-nomenclature/e-and-z-nomenclature.md",
+          "id": "56bfa2c08bad4e09b925137ec76dcc01",
+          "state": "stub",
+          "description": "Assign E and Z configurations to alkenes using the Cahn-Ingold-Prelog rules."
+        },
+        {
+          "title": "Stereochemistry and Reactions",
+          "type": "instruction",
+          "path": "instruction/stereochemistry-and-reactions/stereochemistry-and-reactions.md",
+          "id": "88b873db90484139a11f97d0c900b3b6",
+          "state": "stub",
+          "description": "Analyze how stereochemistry influences the outcome of organic reactions."
+        },
+        {
+          "title": "Prochirality",
+          "type": "instruction",
+          "path": "instruction/prochirality/prochirality.md",
+          "id": "c6f8a450097c4ae09f82bfc4701c07bc",
+          "state": "stub",
+          "description": "Understand the concept of prochirality and its significance in enzymatic reactions."
+        },
+        {
+          "title": "Stereoselective and Stereospecific Reactions",
+          "type": "instruction",
+          "path": "instruction/stereoselective-and-stereospecific-reactions/stereoselective-and-stereospecific-reactions.md",
+          "id": "4ee6c798b0a348d994fcc7a6f7b52234",
+          "state": "stub",
+          "description": "Differentiate between stereoselective and stereospecific reactions."
+        },
+        {
+          "title": "Asymmetric Synthesis",
+          "type": "instruction",
+          "path": "instruction/asymmetric-synthesis/asymmetric-synthesis.md",
+          "id": "df063940e1db462895214b41b542e2a1",
+          "state": "stub",
+          "description": "Introduction to asymmetric synthesis and chiral catalysts."
+        }
       ]
     },
     {
       "title": "Module 4: Reactions of Alkyl Halides",
-      "description": "This module focuses on the reactions of alkyl halides, including SN1, SN2, E1, and E2 reactions.",
       "topics": [
-        { "title": "Structure and Properties of Alkyl Halides", "description": "Examine the structure and physical properties of alkyl halides.", "path": "instruction/structure-and-properties-of-alkyl-halides/structure-and-properties-of-alkyl-halides.md", "type": "instruction", "state": "stub" },
-        { "title": "SN2 Reactions: Mechanism and Stereochemistry", "description": "Understand the mechanism and stereochemical outcome of SN2 reactions.", "path": "instruction/sn2-reactions-mechanism-and-stereochemistry/sn2-reactions-mechanism-and-stereochemistry.md", "type": "instruction", "state": "stub" },
-        { "title": "Factors Affecting SN2 Reactions", "description": "Analyze the factors that influence the rate of SN2 reactions, including substrate structure, nucleophile strength, and solvent effects.", "path": "instruction/factors-affecting-sn2-reactions/factors-affecting-sn2-reactions.md", "type": "instruction", "state": "stub" },
-        { "title": "SN1 Reactions: Mechanism and Stereochemistry", "description": "Understand the mechanism and stereochemical outcome of SN1 reactions.", "path": "instruction/sn1-reactions-mechanism-and-stereochemistry/sn1-reactions-mechanism-and-stereochemistry.md", "type": "instruction", "state": "stub" },
-        { "title": "Factors Affecting SN1 Reactions", "description": "Analyze the factors that influence the rate of SN1 reactions, including substrate structure, leaving group ability, and solvent effects.", "path": "instruction/factors-affecting-sn1-reactions/factors-affecting-sn1-reactions.md", "type": "instruction", "state": "stub" },
-        { "title": "E2 Reactions: Mechanism and Stereochemistry", "description": "Understand the mechanism and stereochemical outcome of E2 reactions.", "path": "instruction/e2-reactions-mechanism-and-stereochemistry/e2-reactions-mechanism-and-stereochemistry.md", "type": "instruction", "state": "stub" },
-        { "title": "Zaitsev's Rule", "description": "Apply Zaitsev's rule to predict the major product of elimination reactions.", "path": "instruction/zaitsev-s-rule/zaitsev-s-rule.md", "type": "instruction", "state": "stub" },
-        { "title": "E1 Reactions: Mechanism and Stereochemistry", "description": "Understand the mechanism and stereochemical outcome of E1 reactions.", "path": "instruction/e1-reactions-mechanism-and-stereochemistry/e1-reactions-mechanism-and-stereochemistry.md", "type": "instruction", "state": "stub" },
-        { "title": "Competition between SN1/E1 and SN2/E2 Reactions", "description": "Predict the major product in reactions where SN1/E1 and SN2/E2 pathways compete.", "path": "instruction/competition-between-sn1-e1-and-sn2-e2-reactions/competition-between-sn1-e1-and-sn2-e2-reactions.md", "type": "instruction", "state": "stub" },
-        { "title": "Synthesis Using Alkyl Halides", "description": "Learn how to use alkyl halides as building blocks in organic synthesis.", "path": "instruction/synthesis-using-alkyl-halides/synthesis-using-alkyl-halides.md", "type": "instruction", "state": "stub" },
-        { "title": "Grignard Reagents", "description": "Introduction to Grignard reagents and their reactions.", "path": "instruction/grignard-reagents/grignard-reagents.md", "type": "instruction", "state": "stub" },
-        { "title": "Organolithium Reagents", "description": "Introduction to organolithium reagents and their reactions.", "path": "instruction/organolithium-reagents/organolithium-reagents.md", "type": "instruction", "state": "stub" }
+        {
+          "title": "Structure and Properties of Alkyl Halides",
+          "type": "instruction",
+          "path": "instruction/structure-and-properties-of-alkyl-halides/structure-and-properties-of-alkyl-halides.md",
+          "id": "205d7cfb18ef401588b04fad01c33e14",
+          "state": "stub",
+          "description": "Examine the structure and physical properties of alkyl halides."
+        },
+        {
+          "title": "SN2 Reactions: Mechanism and Stereochemistry",
+          "type": "instruction",
+          "path": "instruction/sn2-reactions-mechanism-and-stereochemistry/sn2-reactions-mechanism-and-stereochemistry.md",
+          "id": "f4b25549fc9548faa9630d6e1095198a",
+          "state": "stub",
+          "description": "Understand the mechanism and stereochemical outcome of SN2 reactions."
+        },
+        {
+          "title": "Factors Affecting SN2 Reactions",
+          "type": "instruction",
+          "path": "instruction/factors-affecting-sn2-reactions/factors-affecting-sn2-reactions.md",
+          "id": "a51fa7bd3cad4ecfbe9e8225ea15d42c",
+          "state": "stub",
+          "description": "Analyze the factors that influence the rate of SN2 reactions, including substrate structure, nucleophile strength, and solvent effects."
+        },
+        {
+          "title": "SN1 Reactions: Mechanism and Stereochemistry",
+          "type": "instruction",
+          "path": "instruction/sn1-reactions-mechanism-and-stereochemistry/sn1-reactions-mechanism-and-stereochemistry.md",
+          "id": "b99c0a54cc994b8c956559957b0313c7",
+          "state": "stub",
+          "description": "Understand the mechanism and stereochemical outcome of SN1 reactions."
+        },
+        {
+          "title": "Factors Affecting SN1 Reactions",
+          "type": "instruction",
+          "path": "instruction/factors-affecting-sn1-reactions/factors-affecting-sn1-reactions.md",
+          "id": "06c0cdf320304b6c84acf1bf25f05d60",
+          "state": "stub",
+          "description": "Analyze the factors that influence the rate of SN1 reactions, including substrate structure, leaving group ability, and solvent effects."
+        },
+        {
+          "title": "E2 Reactions: Mechanism and Stereochemistry",
+          "type": "instruction",
+          "path": "instruction/e2-reactions-mechanism-and-stereochemistry/e2-reactions-mechanism-and-stereochemistry.md",
+          "id": "ec048598592f4d399cc3afd0bcbdc649",
+          "state": "stub",
+          "description": "Understand the mechanism and stereochemical outcome of E2 reactions."
+        },
+        {
+          "title": "Zaitsev's Rule",
+          "type": "instruction",
+          "path": "instruction/zaitsev-s-rule/zaitsev-s-rule.md",
+          "id": "cebfa3219d8e444dabae31d01f4521ad",
+          "state": "stub",
+          "description": "Apply Zaitsev's rule to predict the major product of elimination reactions."
+        },
+        {
+          "title": "E1 Reactions: Mechanism and Stereochemistry",
+          "type": "instruction",
+          "path": "instruction/e1-reactions-mechanism-and-stereochemistry/e1-reactions-mechanism-and-stereochemistry.md",
+          "id": "fae95ca7df2c4aa495f8e7800f9ca0e0",
+          "state": "stub",
+          "description": "Understand the mechanism and stereochemical outcome of E1 reactions."
+        },
+        {
+          "title": "Competition between SN1/E1 and SN2/E2 Reactions",
+          "type": "instruction",
+          "path": "instruction/competition-between-sn1-e1-and-sn2-e2-reactions/competition-between-sn1-e1-and-sn2-e2-reactions.md",
+          "id": "bc4b395f25a74aa78d6d5fbcbfcabd6b",
+          "state": "stub",
+          "description": "Predict the major product in reactions where SN1/E1 and SN2/E2 pathways compete."
+        },
+        {
+          "title": "Synthesis Using Alkyl Halides",
+          "type": "instruction",
+          "path": "instruction/synthesis-using-alkyl-halides/synthesis-using-alkyl-halides.md",
+          "id": "f98a24ac8d7a4d199f59d55213c2c9d8",
+          "state": "stub",
+          "description": "Learn how to use alkyl halides as building blocks in organic synthesis."
+        },
+        {
+          "title": "Grignard Reagents",
+          "type": "instruction",
+          "path": "instruction/grignard-reagents/grignard-reagents.md",
+          "id": "f310c88a688143318518cc287c50530c",
+          "state": "stub",
+          "description": "Introduction to Grignard reagents and their reactions."
+        },
+        {
+          "title": "Organolithium Reagents",
+          "type": "instruction",
+          "path": "instruction/organolithium-reagents/organolithium-reagents.md",
+          "id": "826bbe929dbb40f9918e8e2b30cdbecd",
+          "state": "stub",
+          "description": "Introduction to organolithium reagents and their reactions."
+        }
       ]
     },
     {
       "title": "Module 5: Alcohols, Ethers, and Epoxides",
-      "description": "This module covers the structure, properties, and reactions of alcohols, ethers, and epoxides.",
       "topics": [
-        { "title": "Structure and Properties of Alcohols", "description": "Examine the structure, physical properties, and acidity of alcohols.", "path": "instruction/structure-and-properties-of-alcohols/structure-and-properties-of-alcohols.md", "type": "instruction", "state": "stub" },
-        { "title": "Reactions of Alcohols: Dehydration and Oxidation", "description": "Study the dehydration and oxidation reactions of alcohols.", "path": "instruction/reactions-of-alcohols-dehydration-and-oxidation/reactions-of-alcohols-dehydration-and-oxidation.md", "type": "instruction", "state": "stub" },
-        { "title": "Formation of Alkyl Halides from Alcohols", "description": "Learn how to convert alcohols into alkyl halides using various reagents.", "path": "instruction/formation-of-alkyl-halides-from-alcohols/formation-of-alkyl-halides-from-alcohols.md", "type": "instruction", "state": "stub" },
-        { "title": "Structure and Properties of Ethers", "description": "Examine the structure and physical properties of ethers.", "path": "instruction/structure-and-properties-of-ethers/structure-and-properties-of-ethers.md", "type": "instruction", "state": "stub" },
-        { "title": "Williamson Ether Synthesis", "description": "Understand the mechanism of the Williamson ether synthesis.", "path": "instruction/williamson-ether-synthesis/williamson-ether-synthesis.md", "type": "instruction", "state": "stub" },
-        { "title": "Reactions of Ethers: Acidic Cleavage", "description": "Study the acidic cleavage of ethers.", "path": "instruction/reactions-of-ethers-acidic-cleavage/reactions-of-ethers-acidic-cleavage.md", "type": "instruction", "state": "stub" },
-        { "title": "Structure and Properties of Epoxides", "description": "Examine the structure and properties of epoxides.", "path": "instruction/structure-and-properties-of-epoxides/structure-and-properties-of-epoxides.md", "type": "instruction", "state": "stub" },
-        { "title": "Reactions of Epoxides: Ring Opening", "description": "Study the ring-opening reactions of epoxides under acidic and basic conditions.", "path": "instruction/reactions-of-epoxides-ring-opening/reactions-of-epoxides-ring-opening.md", "type": "instruction", "state": "stub" },
-        { "title": "Crown Ethers and Phase-Transfer Catalysis", "description": "Introduction to crown ethers and their use in phase-transfer catalysis.", "path": "instruction/crown-ethers-and-phase-transfer-catalysis/crown-ethers-and-phase-transfer-catalysis.md", "type": "instruction", "state": "stub" },
-        { "title": "Thiols and Sulfides", "description": "Introduction to thiols and sulfides and their properties.", "path": "instruction/thiols-and-sulfides/thiols-and-sulfides.md", "type": "instruction", "state": "stub" },
-        { "title": "Alcohol Synthesis", "description": "Methods to synthesize alcohols.", "path": "instruction/alcohol-synthesis/alcohol-synthesis.md", "type": "instruction", "state": "stub" },
-        { "title": "Protecting Groups for Alcohols", "description": "Use of protecting groups to selectively react with parts of organic molecules.", "path": "instruction/protecting-groups-for-alcohols/protecting-groups-for-alcohols.md", "type": "instruction", "state": "stub" }
+        {
+          "title": "Structure and Properties of Alcohols",
+          "type": "instruction",
+          "path": "instruction/structure-and-properties-of-alcohols/structure-and-properties-of-alcohols.md",
+          "id": "4bf7878ba9464361a3ef8c3c454e2b6d",
+          "state": "stub",
+          "description": "Examine the structure, physical properties, and acidity of alcohols."
+        },
+        {
+          "title": "Reactions of Alcohols: Dehydration and Oxidation",
+          "type": "instruction",
+          "path": "instruction/reactions-of-alcohols-dehydration-and-oxidation/reactions-of-alcohols-dehydration-and-oxidation.md",
+          "id": "acb65917284540059f21265e7de5d479",
+          "state": "stub",
+          "description": "Study the dehydration and oxidation reactions of alcohols."
+        },
+        {
+          "title": "Formation of Alkyl Halides from Alcohols",
+          "type": "instruction",
+          "path": "instruction/formation-of-alkyl-halides-from-alcohols/formation-of-alkyl-halides-from-alcohols.md",
+          "id": "97a1f44df3974019a54f991ea2caf6c9",
+          "state": "stub",
+          "description": "Learn how to convert alcohols into alkyl halides using various reagents."
+        },
+        {
+          "title": "Structure and Properties of Ethers",
+          "type": "instruction",
+          "path": "instruction/structure-and-properties-of-ethers/structure-and-properties-of-ethers.md",
+          "id": "923fd764e0a941ec9144644675f4cd01",
+          "state": "stub",
+          "description": "Examine the structure and physical properties of ethers."
+        },
+        {
+          "title": "Williamson Ether Synthesis",
+          "type": "instruction",
+          "path": "instruction/williamson-ether-synthesis/williamson-ether-synthesis.md",
+          "id": "8b4023345a6d41c989604735d6d607fa",
+          "state": "stub",
+          "description": "Understand the mechanism of the Williamson ether synthesis."
+        },
+        {
+          "title": "Reactions of Ethers: Acidic Cleavage",
+          "type": "instruction",
+          "path": "instruction/reactions-of-ethers-acidic-cleavage/reactions-of-ethers-acidic-cleavage.md",
+          "id": "631b1738541946ed96882ccca7f5d3d8",
+          "state": "stub",
+          "description": "Study the acidic cleavage of ethers."
+        },
+        {
+          "title": "Structure and Properties of Epoxides",
+          "type": "instruction",
+          "path": "instruction/structure-and-properties-of-epoxides/structure-and-properties-of-epoxides.md",
+          "id": "78a8dfa2a8074826956ace6ca3b9fc2f",
+          "state": "stub",
+          "description": "Examine the structure and properties of epoxides."
+        },
+        {
+          "title": "Reactions of Epoxides: Ring Opening",
+          "type": "instruction",
+          "path": "instruction/reactions-of-epoxides-ring-opening/reactions-of-epoxides-ring-opening.md",
+          "id": "d683f3a4cd9f4d25adf85510de8b76d2",
+          "state": "stub",
+          "description": "Study the ring-opening reactions of epoxides under acidic and basic conditions."
+        },
+        {
+          "title": "Crown Ethers and Phase-Transfer Catalysis",
+          "type": "instruction",
+          "path": "instruction/crown-ethers-and-phase-transfer-catalysis/crown-ethers-and-phase-transfer-catalysis.md",
+          "id": "4c5a9f22646b4ece8de327a42c85843c",
+          "state": "stub",
+          "description": "Introduction to crown ethers and their use in phase-transfer catalysis."
+        },
+        {
+          "title": "Thiols and Sulfides",
+          "type": "instruction",
+          "path": "instruction/thiols-and-sulfides/thiols-and-sulfides.md",
+          "id": "adcf98a473f742b29cd2213a4692e910",
+          "state": "stub",
+          "description": "Introduction to thiols and sulfides and their properties."
+        },
+        {
+          "title": "Alcohol Synthesis",
+          "type": "instruction",
+          "path": "instruction/alcohol-synthesis/alcohol-synthesis.md",
+          "id": "f62607fcf0754fa7b835bee6d585640e",
+          "state": "stub",
+          "description": "Methods to synthesize alcohols."
+        },
+        {
+          "title": "Protecting Groups for Alcohols",
+          "type": "instruction",
+          "path": "instruction/protecting-groups-for-alcohols/protecting-groups-for-alcohols.md",
+          "id": "f2536890e2294e93931c3865c11c7909",
+          "state": "stub",
+          "description": "Use of protecting groups to selectively react with parts of organic molecules."
+        }
       ]
     },
     {
       "title": "Module 6: Alkenes, Alkynes, and Pi Systems",
-      "description": "This module explores the structure, properties, and reactions of alkenes, alkynes, and aromatic systems.",
       "topics": [
-        { "title": "Structure and Properties of Alkenes and Alkynes", "description": "Examine the structure, bonding, and physical properties of alkenes and alkynes.", "path": "instruction/structure-and-properties-of-alkenes-and-alkynes/structure-and-properties-of-alkenes-and-alkynes.md", "type": "instruction", "state": "stub" },
-        { "title": "Addition Reactions of Alkenes: Electrophilic Addition", "description": "Study the mechanism of electrophilic addition reactions of alkenes.", "path": "instruction/addition-reactions-of-alkenes-electrophilic-addition/addition-reactions-of-alkenes-electrophilic-addition.md", "type": "instruction", "state": "stub" },
-        { "title": "Markovnikov's Rule", "description": "Apply Markovnikov's rule to predict the regiochemistry of alkene addition reactions.", "path": "instruction/markovnikov-s-rule/markovnikov-s-rule.md", "type": "instruction", "state": "stub" },
-        { "title": "Hydroboration-Oxidation", "description": "Understand the hydroboration-oxidation reaction and its stereochemistry.", "path": "instruction/hydroboration-oxidation/hydroboration-oxidation.md", "type": "instruction", "state": "stub" },
-        { "title": "Hydrogenation of Alkenes and Alkynes", "description": "Study the hydrogenation of alkenes and alkynes using metal catalysts.", "path": "instruction/hydrogenation-of-alkenes-and-alkynes/hydrogenation-of-alkenes-and-alkynes.md", "type": "instruction", "state": "stub" },
-        { "title": "Addition Reactions of Alkynes", "description": "Explore the addition reactions of alkynes, including hydrogenation and halogenation.", "path": "instruction/addition-reactions-of-alkynes/addition-reactions-of-alkynes.md", "type": "instruction", "state": "stub" },
-        { "title": "Acidity of Terminal Alkynes", "description": "Understand the acidity of terminal alkynes and their reactions with strong bases.", "path": "instruction/acidity-of-terminal-alkynes/acidity-of-terminal-alkynes.md", "type": "instruction", "state": "stub" },
-        { "title": "Dienes and Conjugated Systems", "description": "Introduction to dienes and conjugated systems.", "path": "instruction/dienes-and-conjugated-systems/dienes-and-conjugated-systems.md", "type": "instruction", "state": "stub" },
-        { "title": "Allylic Systems", "description": "Introduction to allylic systems and allylic substitution reactions.", "path": "instruction/allylic-systems/allylic-systems.md", "type": "instruction", "state": "stub" },
-        { "title": "Diels-Alder Reaction", "description": "Understand the mechanism and stereochemistry of the Diels-Alder reaction.", "path": "instruction/diels-alder-reaction/diels-alder-reaction.md", "type": "instruction", "state": "stub" },
-        { "title": "Electrophilic Aromatic Substitution", "description": "Introduction to electrophilic aromatic substitution reactions.", "path": "instruction/electrophilic-aromatic-substitution/electrophilic-aromatic-substitution.md", "type": "instruction", "state": "stub" },
-        { "title": "Aromaticity and Huckel's Rule", "description": "Understand the concept of aromaticity and Huckel's rule.", "path": "instruction/aromaticity-and-huckel-s-rule/aromaticity-and-huckel-s-rule.md", "type": "instruction", "state": "stub" }
+        {
+          "title": "Structure and Properties of Alkenes and Alkynes",
+          "type": "instruction",
+          "path": "instruction/structure-and-properties-of-alkenes-and-alkynes/structure-and-properties-of-alkenes-and-alkynes.md",
+          "id": "60ef82ed2d2048449c0f5c255f93307a",
+          "state": "stub",
+          "description": "Examine the structure, bonding, and physical properties of alkenes and alkynes."
+        },
+        {
+          "title": "Addition Reactions of Alkenes: Electrophilic Addition",
+          "type": "instruction",
+          "path": "instruction/addition-reactions-of-alkenes-electrophilic-addition/addition-reactions-of-alkenes-electrophilic-addition.md",
+          "id": "67776f3cd8194b8bbf7114ba36d0669a",
+          "state": "stub",
+          "description": "Study the mechanism of electrophilic addition reactions of alkenes."
+        },
+        {
+          "title": "Markovnikov's Rule",
+          "type": "instruction",
+          "path": "instruction/markovnikov-s-rule/markovnikov-s-rule.md",
+          "id": "8e67d1ae681f44a9af342d9c36e0534f",
+          "state": "stub",
+          "description": "Apply Markovnikov's rule to predict the regiochemistry of alkene addition reactions."
+        },
+        {
+          "title": "Hydroboration-Oxidation",
+          "type": "instruction",
+          "path": "instruction/hydroboration-oxidation/hydroboration-oxidation.md",
+          "id": "991a8212f9274ecb836d17b7f6074a8a",
+          "state": "stub",
+          "description": "Understand the hydroboration-oxidation reaction and its stereochemistry."
+        },
+        {
+          "title": "Hydrogenation of Alkenes and Alkynes",
+          "type": "instruction",
+          "path": "instruction/hydrogenation-of-alkenes-and-alkynes/hydrogenation-of-alkenes-and-alkynes.md",
+          "id": "d61404cc23904b8ab3141f51b7ed6b55",
+          "state": "stub",
+          "description": "Study the hydrogenation of alkenes and alkynes using metal catalysts."
+        },
+        {
+          "title": "Addition Reactions of Alkynes",
+          "type": "instruction",
+          "path": "instruction/addition-reactions-of-alkynes/addition-reactions-of-alkynes.md",
+          "id": "bc604839315a4275a1958f6fea8983de",
+          "state": "stub",
+          "description": "Explore the addition reactions of alkynes, including hydrogenation and halogenation."
+        },
+        {
+          "title": "Acidity of Terminal Alkynes",
+          "type": "instruction",
+          "path": "instruction/acidity-of-terminal-alkynes/acidity-of-terminal-alkynes.md",
+          "id": "c54fded62ea24103993073ddf078fd01",
+          "state": "stub",
+          "description": "Understand the acidity of terminal alkynes and their reactions with strong bases."
+        },
+        {
+          "title": "Dienes and Conjugated Systems",
+          "type": "instruction",
+          "path": "instruction/dienes-and-conjugated-systems/dienes-and-conjugated-systems.md",
+          "id": "27c59d695fd84684b88d46f6208390ba",
+          "state": "stub",
+          "description": "Introduction to dienes and conjugated systems."
+        },
+        {
+          "title": "Allylic Systems",
+          "type": "instruction",
+          "path": "instruction/allylic-systems/allylic-systems.md",
+          "id": "8e23ec05dd774d0d97471c5f1262d850",
+          "state": "stub",
+          "description": "Introduction to allylic systems and allylic substitution reactions."
+        },
+        {
+          "title": "Diels-Alder Reaction",
+          "type": "instruction",
+          "path": "instruction/diels-alder-reaction/diels-alder-reaction.md",
+          "id": "f4415cad586648e0b768b481eea14a38",
+          "state": "stub",
+          "description": "Understand the mechanism and stereochemistry of the Diels-Alder reaction."
+        },
+        {
+          "title": "Electrophilic Aromatic Substitution",
+          "type": "instruction",
+          "path": "instruction/electrophilic-aromatic-substitution/electrophilic-aromatic-substitution.md",
+          "id": "c2b8d185ae4b4151af0471fe6b2e6de1",
+          "state": "stub",
+          "description": "Introduction to electrophilic aromatic substitution reactions."
+        },
+        {
+          "title": "Aromaticity and Huckel's Rule",
+          "type": "instruction",
+          "path": "instruction/aromaticity-and-huckel-s-rule/aromaticity-and-huckel-s-rule.md",
+          "id": "71abdb43f3db4cb5a13545c6eb012965",
+          "state": "stub",
+          "description": "Understand the concept of aromaticity and Huckel's rule."
+        }
       ]
     },
     {
       "title": "Module 7: Aldehydes and Ketones",
-      "description": "This module focuses on the structure, properties, and reactions of aldehydes and ketones.",
       "topics": [
-        { "title": "Structure and Properties of Aldehydes and Ketones", "description": "Examine the structure, bonding, and physical properties of aldehydes and ketones.", "path": "instruction/structure-and-properties-of-aldehydes-and-ketones/structure-and-properties-of-aldehydes-and-ketones.md", "type": "instruction", "state": "stub" },
-        { "title": "Nucleophilic Addition to Carbonyl Groups", "description": "Understand the mechanism of nucleophilic addition reactions to carbonyl groups.", "path": "instruction/nucleophilic-addition-to-carbonyl-groups/nucleophilic-addition-to-carbonyl-groups.md", "type": "instruction", "state": "stub" },
-        { "title": "Reactions with Alcohols: Acetal and Hemiacetal Formation", "description": "Study the formation of acetals and hemiacetals from aldehydes and ketones.", "path": "instruction/reactions-with-alcohols-acetal-and-hemiacetal-formation/reactions-with-alcohols-acetal-and-hemiacetal-formation.md", "type": "instruction", "state": "stub" },
-        { "title": "Reactions with Amines: Imine and Enamine Formation", "description": "Study the formation of imines and enamines from aldehydes and ketones.", "path": "instruction/reactions-with-amines-imine-and-enamine-formation/reactions-with-amines-imine-and-enamine-formation.md", "type": "instruction", "state": "stub" },
-        { "title": "Wittig Reaction", "description": "Understand the mechanism of the Wittig reaction and its use in alkene synthesis.", "path": "instruction/wittig-reaction/wittig-reaction.md", "type": "instruction", "state": "stub" },
-        { "title": "Oxidation of Aldehydes", "description": "Study the oxidation reactions of aldehydes.", "path": "instruction/oxidation-of-aldehydes/oxidation-of-aldehydes.md", "type": "instruction", "state": "stub" },
-        { "title": "Reduction of Aldehydes and Ketones", "description": "Study the reduction reactions of aldehydes and ketones using various reagents.", "path": "instruction/reduction-of-aldehydes-and-ketones/reduction-of-aldehydes-and-ketones.md", "type": "instruction", "state": "stub" },
-        { "title": "Aldol Condensation", "description": "Understand the mechanism of the aldol condensation reaction.", "path": "instruction/aldol-condensation/aldol-condensation.md", "type": "instruction", "state": "stub" },
-        { "title": "Claisen Condensation", "description": "Understand the mechanism of the Claisen condensation reaction.", "path": "instruction/claisen-condensation/claisen-condensation.md", "type": "instruction", "state": "stub" },
-        { "title": "Michael Addition", "description": "Understand the mechanism of the Michael addition reaction.", "path": "instruction/michael-addition/michael-addition.md", "type": "instruction", "state": "stub" },
-        { "title": "Enolates", "description": "Introduction to enolates and their reactivity.", "path": "instruction/enolates/enolates.md", "type": "instruction", "state": "stub" },
-        { "title": "Alpha Halogenation", "description": "Understand alpha halogenation of aldehydes and ketones.", "path": "instruction/alpha-halogenation/alpha-halogenation.md", "type": "instruction", "state": "stub" }
+        {
+          "title": "Structure and Properties of Aldehydes and Ketones",
+          "type": "instruction",
+          "path": "instruction/structure-and-properties-of-aldehydes-and-ketones/structure-and-properties-of-aldehydes-and-ketones.md",
+          "id": "01ea23fa83344caa8fb0b3b6ce131668",
+          "state": "stub",
+          "description": "Examine the structure, bonding, and physical properties of aldehydes and ketones."
+        },
+        {
+          "title": "Nucleophilic Addition to Carbonyl Groups",
+          "type": "instruction",
+          "path": "instruction/nucleophilic-addition-to-carbonyl-groups/nucleophilic-addition-to-carbonyl-groups.md",
+          "id": "006f11adbd5440e19c4d0773e6acccf2",
+          "state": "stub",
+          "description": "Understand the mechanism of nucleophilic addition reactions to carbonyl groups."
+        },
+        {
+          "title": "Reactions with Alcohols: Acetal and Hemiacetal Formation",
+          "type": "instruction",
+          "path": "instruction/reactions-with-alcohols-acetal-and-hemiacetal-formation/reactions-with-alcohols-acetal-and-hemiacetal-formation.md",
+          "id": "39ed735f01354929a12283027c086bbb",
+          "state": "stub",
+          "description": "Study the formation of acetals and hemiacetals from aldehydes and ketones."
+        },
+        {
+          "title": "Reactions with Amines: Imine and Enamine Formation",
+          "type": "instruction",
+          "path": "instruction/reactions-with-amines-imine-and-enamine-formation/reactions-with-amines-imine-and-enamine-formation.md",
+          "id": "fc8249b161774fcc9912cb2df5cc522f",
+          "state": "stub",
+          "description": "Study the formation of imines and enamines from aldehydes and ketones."
+        },
+        {
+          "title": "Wittig Reaction",
+          "type": "instruction",
+          "path": "instruction/wittig-reaction/wittig-reaction.md",
+          "id": "570cee7b1afa4ae58e361dc686eae3c5",
+          "state": "stub",
+          "description": "Understand the mechanism of the Wittig reaction and its use in alkene synthesis."
+        },
+        {
+          "title": "Oxidation of Aldehydes",
+          "type": "instruction",
+          "path": "instruction/oxidation-of-aldehydes/oxidation-of-aldehydes.md",
+          "id": "907cdaceb13146d2aa0f6fe1d469a7a3",
+          "state": "stub",
+          "description": "Study the oxidation reactions of aldehydes."
+        },
+        {
+          "title": "Reduction of Aldehydes and Ketones",
+          "type": "instruction",
+          "path": "instruction/reduction-of-aldehydes-and-ketones/reduction-of-aldehydes-and-ketones.md",
+          "id": "d2b7204ae1074ccca70fdb2726b92ec0",
+          "state": "stub",
+          "description": "Study the reduction reactions of aldehydes and ketones using various reagents."
+        },
+        {
+          "title": "Aldol Condensation",
+          "type": "instruction",
+          "path": "instruction/aldol-condensation/aldol-condensation.md",
+          "id": "da0f168998da4d9b9869058a6745595e",
+          "state": "stub",
+          "description": "Understand the mechanism of the aldol condensation reaction."
+        },
+        {
+          "title": "Claisen Condensation",
+          "type": "instruction",
+          "path": "instruction/claisen-condensation/claisen-condensation.md",
+          "id": "3d9acc190163467bba6937e8b4ba8712",
+          "state": "stub",
+          "description": "Understand the mechanism of the Claisen condensation reaction."
+        },
+        {
+          "title": "Michael Addition",
+          "type": "instruction",
+          "path": "instruction/michael-addition/michael-addition.md",
+          "id": "8f7700a7252848aaa487cf83725c39eb",
+          "state": "stub",
+          "description": "Understand the mechanism of the Michael addition reaction."
+        },
+        {
+          "title": "Enolates",
+          "type": "instruction",
+          "path": "instruction/enolates/enolates.md",
+          "id": "e08f62de53474d5cadaa7a07b5c40df6",
+          "state": "stub",
+          "description": "Introduction to enolates and their reactivity."
+        },
+        {
+          "title": "Alpha Halogenation",
+          "type": "instruction",
+          "path": "instruction/alpha-halogenation/alpha-halogenation.md",
+          "id": "306441636287422d90ce9247a4014614",
+          "state": "stub",
+          "description": "Understand alpha halogenation of aldehydes and ketones."
+        }
       ]
     },
     {
       "title": "Module 8: Carboxylic Acids and Derivatives",
-      "description": "This module covers the structure, properties, and reactions of carboxylic acids and their derivatives.",
       "topics": [
-        { "title": "Structure and Properties of Carboxylic Acids", "description": "Examine the structure, bonding, physical properties, and acidity of carboxylic acids.", "path": "instruction/structure-and-properties-of-carboxylic-acids/structure-and-properties-of-carboxylic-acids.md", "type": "instruction", "state": "stub" },
-        { "title": "Nomenclature of Carboxylic Acids", "description": "Learn the IUPAC nomenclature system for naming carboxylic acids.", "path": "instruction/nomenclature-of-carboxylic-acids/nomenclature-of-carboxylic-acids.md", "type": "instruction", "state": "stub" },
-        { "title": "Reactions of Carboxylic Acids: Esterification", "description": "Study the esterification reaction of carboxylic acids.", "path": "instruction/reactions-of-carboxylic-acids-esterification/reactions-of-carboxylic-acids-esterification.md", "type": "instruction", "state": "stub" },
-        { "title": "Reactions of Carboxylic Acids: Amide Formation", "description": "Study the amide formation reaction of carboxylic acids.", "path": "instruction/reactions-of-carboxylic-acids-amide-formation/reactions-of-carboxylic-acids-amide-formation.md", "type": "instruction", "state": "stub" },
-        { "title": "Structure and Properties of Esters", "description": "Examine the structure and physical properties of esters.", "path": "instruction/structure-and-properties-of-esters/structure-and-properties-of-esters.md", "type": "instruction", "state": "stub" },
-        { "title": "Hydrolysis of Esters", "description": "Study the acid-catalyzed and base-promoted hydrolysis of esters.", "path": "instruction/hydrolysis-of-esters/hydrolysis-of-esters.md", "type": "instruction", "state": "stub" },
-        { "title": "Structure and Properties of Amides", "description": "Examine the structure and physical properties of amides.", "path": "instruction/structure-and-properties-of-amides/structure-and-properties-of-amides.md", "type": "instruction", "state": "stub" },
-        { "title": "Hydrolysis of Amides", "description": "Study the acid-catalyzed and base-promoted hydrolysis of amides.", "path": "instruction/hydrolysis-of-amides/hydrolysis-of-amides.md", "type": "instruction", "state": "stub" },
-        { "title": "Structure and Properties of Acid Chlorides and Anhydrides", "description": "Examine the structure and properties of acid chlorides and anhydrides.", "path": "instruction/structure-and-properties-of-acid-chlorides-and-anhydrides/structure-and-properties-of-acid-chlorides-and-anhydrides.md", "type": "instruction", "state": "stub" },
-        { "title": "Reactions of Acid Chlorides and Anhydrides", "description": "Study the reactions of acid chlorides and anhydrides with nucleophiles.", "path": "instruction/reactions-of-acid-chlorides-and-anhydrides/reactions-of-acid-chlorides-and-anhydrides.md", "type": "instruction", "state": "stub" },
-        { "title": "Decarboxylation", "description": "Understand the decarboxylation reaction.", "path": "instruction/decarboxylation/decarboxylation.md", "type": "instruction", "state": "stub" },
-        { "title": "Capstone Project: Multi-Step Synthesis of a Target Molecule", "description": "Apply the knowledge gained throughout the course to design and propose a multi-step synthesis of a complex organic molecule. This project integrates concepts from all modules and emphasizes problem-solving skills.", "path": "instruction/capstone-project-multi-step-synthesis-of-a-target-molecule/capstone-project-multi-step-synthesis-of-a-target-molecule.md", "type": "instruction", "state": "stub" }
+        {
+          "title": "Structure and Properties of Carboxylic Acids",
+          "type": "instruction",
+          "path": "instruction/structure-and-properties-of-carboxylic-acids/structure-and-properties-of-carboxylic-acids.md",
+          "id": "c3aa915ce02245c1855309ebe7313756",
+          "state": "stub",
+          "description": "Examine the structure, bonding, physical properties, and acidity of carboxylic acids."
+        },
+        {
+          "title": "Nomenclature of Carboxylic Acids",
+          "type": "instruction",
+          "path": "instruction/nomenclature-of-carboxylic-acids/nomenclature-of-carboxylic-acids.md",
+          "id": "4a51a927bda14a558d5fbf3d85c0d12b",
+          "state": "stub",
+          "description": "Learn the IUPAC nomenclature system for naming carboxylic acids."
+        },
+        {
+          "title": "Reactions of Carboxylic Acids: Esterification",
+          "type": "instruction",
+          "path": "instruction/reactions-of-carboxylic-acids-esterification/reactions-of-carboxylic-acids-esterification.md",
+          "id": "d1a0919fb82e4b2c92fdfbfe2fffa4a1",
+          "state": "stub",
+          "description": "Study the esterification reaction of carboxylic acids."
+        },
+        {
+          "title": "Reactions of Carboxylic Acids: Amide Formation",
+          "type": "instruction",
+          "path": "instruction/reactions-of-carboxylic-acids-amide-formation/reactions-of-carboxylic-acids-amide-formation.md",
+          "id": "365bdf6cf6c142e78b57b967e3c8b22b",
+          "state": "stub",
+          "description": "Study the amide formation reaction of carboxylic acids."
+        },
+        {
+          "title": "Structure and Properties of Esters",
+          "type": "instruction",
+          "path": "instruction/structure-and-properties-of-esters/structure-and-properties-of-esters.md",
+          "id": "2323472609244e8bbe3405cfefe19eaf",
+          "state": "stub",
+          "description": "Examine the structure and physical properties of esters."
+        },
+        {
+          "title": "Hydrolysis of Esters",
+          "type": "instruction",
+          "path": "instruction/hydrolysis-of-esters/hydrolysis-of-esters.md",
+          "id": "2e134de884cc4ee191f7b961add1fcef",
+          "state": "stub",
+          "description": "Study the acid-catalyzed and base-promoted hydrolysis of esters."
+        },
+        {
+          "title": "Structure and Properties of Amides",
+          "type": "instruction",
+          "path": "instruction/structure-and-properties-of-amides/structure-and-properties-of-amides.md",
+          "id": "48de8453765946adb6e4a1ef98407c65",
+          "state": "stub",
+          "description": "Examine the structure and physical properties of amides."
+        },
+        {
+          "title": "Hydrolysis of Amides",
+          "type": "instruction",
+          "path": "instruction/hydrolysis-of-amides/hydrolysis-of-amides.md",
+          "id": "78972dd4d18d42d48c66489795d84c4c",
+          "state": "stub",
+          "description": "Study the acid-catalyzed and base-promoted hydrolysis of amides."
+        },
+        {
+          "title": "Structure and Properties of Acid Chlorides and Anhydrides",
+          "type": "instruction",
+          "path": "instruction/structure-and-properties-of-acid-chlorides-and-anhydrides/structure-and-properties-of-acid-chlorides-and-anhydrides.md",
+          "id": "9862553a095545b48b9ce63a4f0f1d94",
+          "state": "stub",
+          "description": "Examine the structure and properties of acid chlorides and anhydrides."
+        },
+        {
+          "title": "Reactions of Acid Chlorides and Anhydrides",
+          "type": "instruction",
+          "path": "instruction/reactions-of-acid-chlorides-and-anhydrides/reactions-of-acid-chlorides-and-anhydrides.md",
+          "id": "57ea0bf59de6492b940ae91b68c356d7",
+          "state": "stub",
+          "description": "Study the reactions of acid chlorides and anhydrides with nucleophiles."
+        },
+        {
+          "title": "Decarboxylation",
+          "type": "instruction",
+          "path": "instruction/decarboxylation/decarboxylation.md",
+          "id": "b95d49c65f4042ebbbed4f66f9db7e54",
+          "state": "stub",
+          "description": "Understand the decarboxylation reaction."
+        },
+        {
+          "title": "Capstone Project: Multi-Step Synthesis of a Target Molecule",
+          "type": "instruction",
+          "path": "instruction/capstone-project-multi-step-synthesis-of-a-target-molecule/capstone-project-multi-step-synthesis-of-a-target-molecule.md",
+          "id": "8e10516c35cb47dd9339beea41221976",
+          "state": "stub",
+          "description": "Apply the knowledge gained throughout the course to design and propose a multi-step synthesis of a complex organic molecule. This project integrates concepts from all modules and emphasizes problem-solving skills."
+        }
       ]
     }
   ]
