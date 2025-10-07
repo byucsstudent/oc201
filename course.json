@@ -229,7 +229,7 @@
           "type": "instruction",
           "path": "instruction/r-and-s-configuration/r-and-s-configuration.md",
           "id": "64eadc834907420ab02aab0611a2ac69",
-          "state": "stub",
+          "state": "stable",
           "description": "Assign R and S configurations to chiral centers using the Cahn-Ingold-Prelog rules."
         },
         {
