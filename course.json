@@ -213,7 +213,7 @@
           "type": "instruction",
           "path": "instruction/chirality-and-stereoisomers/chirality-and-stereoisomers.md",
           "id": "fe5020dc4d694896b439008eeec3c2a1",
-          "state": "stub",
+          "state": "stable",
           "description": "Define chirality and differentiate between enantiomers and diastereomers."
         },
         {
