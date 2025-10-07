@@ -35,7 +35,7 @@
           "type": "instruction",
           "path": "instruction/drawing-organic-structures/drawing-organic-structures.md",
           "id": "ff1395a78e6c498c9749181dd6b29bff",
-          "state": "stub",
+          "state": "stable",
           "description": "Learn how to represent organic molecules using Lewis structures, condensed formulas, and skeletal structures."
         },
         {
