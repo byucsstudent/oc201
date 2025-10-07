@@ -27,7 +27,7 @@
           "type": "instruction",
           "path": "instruction/hybridization-and-molecular-geometry/hybridization-and-molecular-geometry.md",
           "id": "3c4173dbac93437790e0a82c0988959f",
-          "state": "stub",
+          "state": "stable",
           "description": "Understand the concepts of sp, sp2, and sp3 hybridization and their influence on molecular shape."
         },
         {
