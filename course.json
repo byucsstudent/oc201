@@ -6,11 +6,11 @@
       "title": "Module 1: Foundations of Organic Chemistry",
       "topics": [
         {
-          "title": "Overview",
+          "title": "Overviewx",
           "type": "instruction",
           "path": "README.md",
           "id": "5c236c96788640709dc5f2ab1335f2f7",
-          "state": "stable",
+          "state": "published",
           "description": "Course introduction and objectives.",
           "commit": "43dd37fd2ab320f468144d947456ee3691f169f4"
         },
@@ -19,7 +19,7 @@
           "type": "instruction",
           "path": "instruction/chemical-bonding-in-organic-molecules/chemical-bonding-in-organic-molecules.md",
           "id": "ad4f6910e03d48d28498168a00083d2e",
-          "state": "stable",
+          "state": "published",
           "description": "Explore covalent bonding, electronegativity, and bond polarity in organic compounds."
         },
         {
@@ -27,7 +27,7 @@
           "type": "instruction",
           "path": "instruction/hybridization-and-molecular-geometry/hybridization-and-molecular-geometry.md",
           "id": "3c4173dbac93437790e0a82c0988959f",
-          "state": "stable",
+          "state": "published",
           "description": "Understand the concepts of sp, sp2, and sp3 hybridization and their influence on molecular shape."
         },
         {
@@ -35,7 +35,7 @@
           "type": "instruction",
           "path": "instruction/drawing-organic-structures/drawing-organic-structures.md",
           "id": "ff1395a78e6c498c9749181dd6b29bff",
-          "state": "stable",
+          "state": "published",
           "description": "Learn how to represent organic molecules using Lewis structures, condensed formulas, and skeletal structures."
         },
         {
@@ -43,7 +43,7 @@
           "type": "instruction",
           "path": "instruction/nomenclature-of-alkanes-and-alkyl-groups/nomenclature-of-alkanes-and-alkyl-groups.md",
           "id": "6fa81557ea344e26a2261fe1dff5eed1",
-          "state": "stable",
+          "state": "published",
           "description": "Master the IUPAC nomenclature system for naming alkanes and alkyl substituents."
         },
         {
@@ -213,7 +213,7 @@
           "type": "instruction",
           "path": "instruction/chirality-and-stereoisomers/chirality-and-stereoisomers.md",
           "id": "fe5020dc4d694896b439008eeec3c2a1",
-          "state": "stable",
+          "state": "published",
           "description": "Define chirality and differentiate between enantiomers and diastereomers."
         },
         {
@@ -229,7 +229,7 @@
           "type": "instruction",
           "path": "instruction/r-and-s-configuration/r-and-s-configuration.md",
           "id": "64eadc834907420ab02aab0611a2ac69",
-          "state": "stable",
+          "state": "published",
           "description": "Assign R and S configurations to chiral centers using the Cahn-Ingold-Prelog rules."
         },
         {
@@ -261,7 +261,7 @@
           "type": "instruction",
           "path": "instruction/stereoisomers-of-alkenes-cis-trans-isomerism/stereoisomers-of-alkenes-cis-trans-isomerism.md",
           "id": "0493ac0b17ea4b4fa759535de05fe0f0",
-          "state": "stable",
+          "state": "published",
           "description": "Understand cis-trans isomerism in alkenes."
         },
         {
@@ -415,7 +415,7 @@
           "type": "instruction",
           "path": "instruction/structure-and-properties-of-alcohols/structure-and-properties-of-alcohols.md",
           "id": "4bf7878ba9464361a3ef8c3c454e2b6d",
-          "state": "stable",
+          "state": "published",
           "description": "Examine the structure, physical properties, and acidity of alcohols."
         },
         {
@@ -439,7 +439,7 @@
           "type": "instruction",
           "path": "instruction/structure-and-properties-of-ethers/structure-and-properties-of-ethers.md",
           "id": "923fd764e0a941ec9144644675f4cd01",
-          "state": "stable",
+          "state": "published",
           "description": "Examine the structure and physical properties of ethers."
         },
         {
